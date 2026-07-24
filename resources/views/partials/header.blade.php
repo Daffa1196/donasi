@@ -13,6 +13,8 @@
             <a href="/profil" class="text-gray-700 hover:text-green-600">Profil</a>
             <a href="/kontak" class="text-gray-700 hover:text-green-600">Kontak</a>
             <a href="/campaign" class="text-gray-700 hover:text-green-600">Campaign</a>
+            <a href="{{ url('/documentations') }}">Documentation</a>
+
         </nav>
 
         <!-- Button -->
@@ -21,5 +23,11 @@
             Donasi Sekarang
         </a>
 
+        <li>
+    <a href="/documentations"
+       class="hover:text-green-600">
+        Documentation
+    </a>
+</li>
     </div>
 </header>
