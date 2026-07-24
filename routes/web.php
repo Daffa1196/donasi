@@ -4,6 +4,7 @@ use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\HomeController;
 use App\Http\Controllers\CampaignController;
 use App\Http\Controllers\DocumentationFileController;
+use App\Http\Controllers\FeedController;
 
 Route::get('/', [HomeController::class, 'index']);
 Route::get('/profil', [HomeController::class, 'profil']);
@@ -13,4 +14,5 @@ Route::get('/donasi', [HomeController::class, 'donasi']);
 Route::get('/documentations', [DocumentationFileController::class, 'index']);
 Route::post('/documentations', [DocumentationFileController::class, 'store']);
 
+Route::get('/feeds', [FeedController::class, 'index']);
 Route::resource('campaign', CampaignController::class);
