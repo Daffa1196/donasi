@@ -12,6 +12,7 @@
             <a href="/donasi" class="text-gray-700 hover:text-green-600">Donasi</a>
             <a href="/profil" class="text-gray-700 hover:text-green-600">Profil</a>
             <a href="/kontak" class="text-gray-700 hover:text-green-600">Kontak</a>
+            <a href="/campaign" class="text-gray-700 hover:text-green-600">Campaign</a>
         </nav>
 
         <!-- Button -->
