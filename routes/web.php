@@ -6,3 +6,4 @@ use App\Http\Controllers\HomeController;
 Route::get('/', [HomeController::class, 'index']);
 Route::get('/profil', [HomeController::class, 'profil']);
 Route::get('/kontak', [HomeController::class, 'kontak']);
+Route::get('/donasi', [HomeController::class, 'donasi']);

@@ -1,19 +1,34 @@
-<!DOCTYPE html>
-<html>
-<head>
-    <title>Kontak</title>
-</head>
-<body>
+@extends('layouts.app')
 
-<a href="/">Home</a> |
-<a href="/profil">Profil</a> |
-<a href="/kontak">Kontak</a>
+@section('title', 'Kontak')
 
-<h1>Halaman Kontak</h1>
+@section('content')
 
-<p>Email : daffa@example.com</p>
-<p>No. HP : 08112345678</p>
-<p>Alamat : Pontianak, Kalimantan Barat</p>
+<div class="max-w-2xl mx-auto bg-white shadow-md rounded-xl p-8">
 
-</body>
-</html> 
+    <h1 class="text-3xl font-bold text-green-600 mb-6">
+        Hubungi Kami
+    </h1>
+
+    <div class="space-y-4">
+
+        <div>
+            <h2 class="font-semibold">📧 Email</h2>
+            <p>support@donasiku.com</p>
+        </div>
+
+        <div>
+            <h2 class="font-semibold">📞 Telepon</h2>
+            <p>0812-xxxx-xxxx</p>
+        </div>
+
+        <div>
+            <h2 class="font-semibold">📍 Alamat</h2>
+            <p>Pontianak, Kalimantan Barat</p>
+        </div>
+
+    </div>
+
+</div>
+
+@endsection

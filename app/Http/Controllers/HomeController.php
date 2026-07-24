@@ -20,4 +20,9 @@ class HomeController extends Controller
     {
         return view('kontak');
     }
+
+    public function donasi()
+    {
+        return view('donasi');
+    }
 }

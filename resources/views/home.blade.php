@@ -1,16 +1,17 @@
-<!DOCTYPE html>
-<html>
-<head>
-    <title>Home</title>
-</head>
-<body>
+@extends('layouts.app')
 
-<a href="/">Home</a> |
-<a href="/profil">Profil</a> |
-<a href="/kontak">Kontak</a>
+@section('title', 'Home')
 
-<h1>Halaman Home</h1>
-<p>Selamat datang di website Laravel.</p>
+@section('content')
 
-</body>
-</html>
+<div class="text-center">
+    <h1 class="text-3xl font-bold text-green-600 mb-4">
+        Selamat Datang di DonasiKu
+    </h1>
+
+    <p class="text-gray-600">
+        Mari berbagi kebaikan dan bantu sesama melalui donasi.
+    </p>
+</div>
+
+@endsection
